@@ -1,0 +1,28 @@
+div{
+    overflow-y: auto;
+    
+}
+
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+  empty-cells: show;
+}
+
+td, th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background-color: #dddddd;
+}
+caption{
+    font-size: 40px;
+    font-weight: 200;
+    color:blue;
+width:auto;
+text-align: center;
+}
